@@ -3,7 +3,6 @@
 
 <HEAD>
   <TITLE> Mai Do </TITLE>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <META NAME="Generator" CONTENT="EditPlus">
   <META NAME="Author" CONTENT="">
   <META NAME="Keywords" CONTENT="">
@@ -12,24 +11,18 @@
 
   <style>
     body {
-      /* height: 100%;
+      height: 100%;
       padding: 0;
       margin: 0;
       display: flex;
       justify-content: center;
-      align-items: center; */
+      align-items: center; 
       background-image: url('Mai.png');
       background-size: cover;
+      background-repeat: no-repeat;
       opacity: 0.5;
     }
-    @media only screen and (max-width: 415px) {
-      body {
-        background-image: url('Mai2.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        opacity: 0.5;
-      }
-    }
+    
 
     /* Snow */
     #snowflakeContainer{position:absolute;left:0px;top:0px;}
@@ -110,7 +103,7 @@
 </HEAD>
 
 <BODY>
-  <audio id="mp3" src="" controls></audio>
+  <audio id="mp3" src=""></audio>
   <div class="box">
     <canvas id="pinkboard" onclick="playAudio()"></canvas>
   </div>
